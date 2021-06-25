@@ -1,0 +1,162 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+a{
+    color: inherit;
+}
+
+
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: grey;
+    margin: auto;
+}
+/*.nav-profile{
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    border-radius: 10px;
+} */
+.nav2{
+    padding: 20px;
+    background: rgb(0,0,0,0.05);
+}
+
+.temp-img{
+    color: grey;
+    font-weight: bolder;
+    background: #f5f5f5;
+    text-align: center;
+}
+.nav2-right{
+    float: right;
+}
+.nav2-right-item{
+   display: inline;
+}
+
+.nav2-img{
+    display: inline-block;
+}
+ 
+.nav2-profile{
+    width: 40px;
+    height:40px;
+    background :grey;
+    border-radius: 100px;
+    margin-top: -10px;
+
+}
+.nav2-right-item{
+    float: right;
+    margin-left: 30px;;
+}
+.content{
+
+    padding: 10px;
+    margin: auto;
+    max-width: 900px;
+    margin-top: 60px;
+}
+
+.icon{
+    width: 80px;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+.icon-square{
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 10px 0 rgb(0,0,0,0.1);
+    border-radius: 10px;
+    margin: auto;
+    background: rgb(204, 204, 204);
+    transition: 0.2s;
+}.icon-square:hover{
+    transform: translateY(-5px);
+
+}
+.icon-text{
+    text-align: center;
+    font-size: 12px !important;
+
+}
+.icon-plus{
+    color: white;
+    font-size: 70px !important;
+    line-height: 75px;
+    text-align: center;
+    transition: 0.1s;
+
+}.icon-plus:hover{
+    background: #333;
+    line-height: 65px;
+
+}
+
+.timer{
+    background: #888;
+    color: white;
+    float: left;
+    padding: 0px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+
+
+}
+
+.timer-main{
+    font-size: 70px !important;
+}
+.timer-date{
+    font-size: 14px;
+    text-align: right;
+    margin-top: -18px;
+    margin-bottom: 7px;
+    
+}
+.buy-square{
+    height: 120px;
+    width: 120px;
+    border-radius: 7px;
+    border: 2px solid#418bca;
+    background: rgb(255, 255, 255);
+    float: left;
+    margin-left: 10px;
+    box-shadow:0 0 10px 0 rgb(0,0,0,0.3);
+    transition: 0.1s;
+    display: none;
+}.buy-square:hover{
+    background: #888;
+}
+.buy-text{
+    text-align: center;
+    font-size: 18px;
+
+}
+.buy-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px ;
+    margin: 10px auto;
+    background: rgb(255, 255, 255);
+}
+
+
+.canvasjs-chart-credit{
+    display: none;
+}
+
+.page-footer{
+    width: 100%;
+    height: 70px;
+    background: rgb(0,0,0,0.1);
+    box-shadow: -5px 0 10px 0 rgb(0,0,0,0.1);
+}
