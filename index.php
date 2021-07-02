@@ -42,7 +42,7 @@ if(!isset($_SESSION['user_id']) or empty($_SESSION['user_id'])
               <br>
 
           <?php
-          $sql ="SELECT * FROM transactions WHERE user_id='$user_id'";
+          $sql ="SELECT * FROM transactions WHERE user_id='$user_id' ORDER BY time_paid DESC";
           $query = mysqli_query($conn, $sql);
           $transactions =array();
 

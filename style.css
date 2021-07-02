@@ -167,3 +167,17 @@ a{
     margin: auto;
     margin-top: 50px;
 }
+
+.transaction{
+    max-width:900px; 
+    padding:20px; 
+    margin: auto;
+    margin-top: 50px;
+}   
+
+.all_users-div{
+    max-width:900px; 
+    padding:20px; 
+    margin: auto;
+    margin-top: 50px;
+}   

@@ -50,7 +50,13 @@ if (isset($_POST['add'])){
         echo "COULD NOT ADD";
     }
 }
+if (isset($_GET['delete'])) {
+    $delete_id = $_GET['delete'];
 
+    $sql = "DELETE FROM `items` WHERE id='$delete_id'";
+
+    mysqli_query($conn, $sql);
+}
 
 
 ?>
@@ -113,8 +119,8 @@ if (isset($_POST['add'])){
            
             <td>
               <button type="submit" class="btn btn-sm btn-primary">UPDATE</button>
-                <!--a href="?delete =<!?php echo $i['id'];?>"><button type="submit" class="btn btn-danger">
-                DELETE</button> </a -->
+                <a href="?delete=<?php echo $i['id'];?>"><div class="btn btn-danger">
+                DELETE</div> </a>
             </td>
             </form>
       </tr>
@@ -126,3 +132,5 @@ if (isset($_POST['add'])){
 </table>
 
 </div>
+
+<script src="assets\bootstrap\js\bootstrap.min.js"></script>

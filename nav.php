@@ -27,6 +27,8 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="verify-deposit.php">Verify Deposit</a></li>
                   <li><a class="dropdown-item" href="inventory.php">Inventory</a></li>
+                  <li><a class="dropdown-item" href="transaction.php">All Transactions</a></li>
+                  <li><a class="dropdown-item" href="all_users.php">All Users</a></li>
                  
                 </ul>
               </li>
