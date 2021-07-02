@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets\bootstrap\css\bootstrap.min.css">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,6 +26,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="verify-deposit.php">Verify Deposit</a></li>
+                  <li><a class="dropdown-item" href="inventory.php">Inventory</a></li>
                  
                 </ul>
               </li>

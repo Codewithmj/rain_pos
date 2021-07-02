@@ -13,8 +13,7 @@ isset($_POST['username']) and !empty($_POST['username'])
     $check_email = mysqli_query($conn, "SELECT id FROM registered_users WHERE email='$email' ");
     if ($check_email->num_rows == 0){
 
-    $register_sql = "INSERT INTO 
-    registered_users(username, email, password) 
+    $register_sql = "INSERT INTO registered_users(username, email, password) 
     VALUES ('$username', '$email', '$password')";
         if($register_query = mysqli_query($conn,$register_sql)){
             //echo "Successfully Registered";
